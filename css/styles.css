@@ -4,25 +4,22 @@
     box-sizing: border-box;
 }
 
-div[class^=col-] {
+.box > * {
     background-color: #3E65F9;
     color: white;
     padding: 10px;
     text-align: center;
     border: 1px solid white;
+    min-height: 40px;
 }
 
-div[class^=col-].nasted {
+.box > *.nasted {
     background-color: #00E065;
-    border: 1px solid #3E65F9
+    border: 1px solid #3E65F9;
 }
 
 .margin-bottom {
     margin-bottom: 20px;
-}
-
-div[class^=col-] {
-    min-height: 40px;
 }
 
 .start {
