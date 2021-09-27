@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 12px;
+}
+ 
 .box > * {
     background-color: #3E65F9;
     color: white;
